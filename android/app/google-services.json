@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412096487466",
+    "project_id": "again-auth-project",
+    "storage_bucket": "again-auth-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412096487466:android:20ef42e7f2939c5c4fe353",
+        "android_client_info": {
+          "package_name": "com.example.glak_flix_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHs-zGqmphWUvNAfkaPPEnpE1REwz3d_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
