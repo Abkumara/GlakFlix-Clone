@@ -53,9 +53,9 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Text(
-          'G',
-          style: TextStyle(fontSize: 25),
+        leading: ClipOval(
+          child: CircleAvatar(
+              radius: 30, child: Image.asset('Assets/Images/log.png')),
         ),
         backgroundColor: Colors.transparent,
         actions: [

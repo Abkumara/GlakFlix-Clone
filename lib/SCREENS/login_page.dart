@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
         print(credential);
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text('Signup in ${emailController.text}'),
-          duration: Duration(seconds: 5),
+          duration: const Duration(seconds: 5),
         ));
         clearTextFields();
         setState(() {
@@ -88,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal[900],
+      backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: Text(
