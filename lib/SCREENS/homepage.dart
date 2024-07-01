@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage>
           )
         ]),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: TabBarView(controller: _tabController, children: const [
         TvShows(),
         Movies(),
